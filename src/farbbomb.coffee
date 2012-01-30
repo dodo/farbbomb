@@ -1,4 +1,3 @@
-require './eyes'
 util = require 'util'
 { SerialPort } =  require 'serialport'
 protocol = require './protocol'
@@ -22,8 +21,6 @@ setInterval ->
         g:12
         b:12
         w:12
-#     w = "" + util.inspect buf
-#     w = w[0 .. w.length - 10 ] # wtf 10?
     console.log buf
     #floor(abs(sin(t*0.01)*255))
 
