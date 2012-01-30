@@ -19,9 +19,9 @@ setInterval ->
         x:0
         y:0
         r:244
-        g:0
-        b:0
-        w:0
+        g:12
+        b:12
+        w:12
 #     w = "" + util.inspect buf
 #     w = w[0 .. w.length - 10 ] # wtf 10?
     console.log buf
@@ -29,5 +29,5 @@ setInterval ->
 
     #wall = not wall
     t++
-, 200
+, 100
 

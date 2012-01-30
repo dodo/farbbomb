@@ -27,4 +27,4 @@ module.exports = (target, data) ->
     p data.g
     p data.b
     p data.w if target is 'ceiling'
-    return new Buffer res, 'ascii'
+    return new Buffer res
