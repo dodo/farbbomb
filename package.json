@@ -1,0 +1,10 @@
+{ "name": "farbbomb"
+, "version": "0.0.0"
+, "author": "dodo (https://github.com/dodo)"
+, "engines": {"node": ">= 0.4.x"}
+, "dependencies": {
+    "serialport": "*"}
+, "devDependencies": {
+    "coffee-script": ">= 1.1.2",
+    "muffin": ">= 0.2.6"}
+}
