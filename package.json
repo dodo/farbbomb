@@ -3,7 +3,7 @@
 , "author": "dodo (https://github.com/dodo)"
 , "engines": {"node": ">= 0.4.x"}
 , "dependencies": {
-    "serialport": "*"}
+    "serialport": "https://github.com/dodo/node-serialport/tarball/baud500000"}
 , "devDependencies": {
     "coffee-script": ">= 1.1.2",
     "muffin": ">= 0.2.6"}
